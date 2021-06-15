@@ -191,10 +191,10 @@ main {
 
 .product-overlay {
     position: absolute;
-    width: 100%;
-    margin-left: -84px;
+    width: auto;
+    margin-left: -26.2%;
     margin-top: 1vw;
-    padding: 20px 40px 20px 40px;
+    padding: 20px 10px 20px 50px;
     text-align: left;
     line-height: 1.5;
     background-color: white;
@@ -206,9 +206,10 @@ main {
 .product-overlay2{
     position: absolute;
     height: auto;
-    margin-left: -84px;
+    width: auto;
+    margin-left: -26.2%;
     margin-top: 1vw;
-    padding: 20px 20px 20px 20px;
+    padding: 20px 10px 20px 50px;
     text-align: left;
     line-height: 1.5;
     background-color: white;
@@ -218,12 +219,13 @@ main {
 }
 
 .product-slide {
+    position: relative;
     display: inline-block;
-    width: 30%;
+    width: 29.4%;
     height: 6vw;
-    right: 1.2%;
     background-color: #A59381;
-    top: 2vw;
+    top: 3vw;
+    left: -1.3vw;
 }
 
 main h1 {
@@ -324,7 +326,7 @@ main h2::after {
     display: inline-block;
     width: 29.4%;
     height: 6vw;
-    right: 66.3%;
+    right: 66.5%;
     background-color: #A59381;
     top: 37vw;
 }

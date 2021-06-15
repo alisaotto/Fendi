@@ -4,6 +4,19 @@
         overflow-x: hidden;
     }
 
+    #hero-img {
+        height: 100vw;
+        width: auto;
+        overflow: hidden;
+    }
+
+    #hero-img img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: 24%;
+    }
+
     .dropdown-content {
         margin-top: -10px;
     }

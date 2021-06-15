@@ -170,16 +170,8 @@
         position: relative;
     }
 
-    .product-overlay, .product-overlay2 {
+    .product-overlay, .product-overlay2, .lounge-overlay {
         padding: 15px;
-        width: auto;
-        margin-left: -40px;
-    }
-
-    .lounge-overlay {
-        padding: 15px;
-        width: auto;
-        margin-right: -40px;
     }
 
     .story-bar {
