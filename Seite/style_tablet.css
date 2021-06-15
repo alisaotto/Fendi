@@ -1,0 +1,195 @@
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+    
+    body {
+        text-align: unset;
+        height: 100%;
+        width: 100%;
+    }
+    
+    #navigation-desktop {
+        display: none;
+    }
+
+    #logo {
+        position: fixed;
+        display:inline-flex;
+        z-index: 100;
+        height: 6vw;
+        width: 97%;
+        margin-left: 1.5%;
+        margin-top: -3%;
+        background-color: white;
+    }
+
+    #logo img {
+        height: 90%;
+        margin: auto;
+    }
+
+    #navigation-mobile {
+        position: fixed;
+        z-index: 100;
+        height: 5vw;
+        width: 97%;
+        margin-left: 1.5%;
+        margin-top: 3%;
+        background-color: #A59381;
+        display: inline-flex;
+        cursor: pointer;
+    }
+
+    #burger-menu-container {
+        display: inline-flex;
+        width: 50%;
+        background-color: #555555;
+    }
+
+    #burger-menu-container p {
+        position: absolute;
+        margin-top: -5.2vw;
+        margin-left: 6vw;
+        margin-bottom: auto;
+        line-height: 6vw;
+        color: white;
+        font-family: bebas-neue-pro, sans-serif;
+        font-weight: 300;
+        font-size: 2.3vw;
+    }
+
+    .burger-menu {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 10%;
+        height: 90%;
+        transition: all .5s ease-in-out;
+        border: solid 3px transparent;
+    }
+
+    .burger-menu-lines {
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        height: 1px;
+        background: white;
+        border-radius: 5px;
+        transition: all .5s ease-in-out;
+    }
+
+    .burger-menu-lines::before, .burger-menu-lines::after {
+        content: '';
+        position: absolute;
+        width: 70%;
+        height: 1px;
+        background: white;
+        border-radius: 1px;
+        transition: all .5s ease-in-out;
+    }
+
+    .burger-menu-lines::before {
+        transform: translateY(-1vw)
+    }
+
+    .burger-menu-lines::after {
+        transform: translateY(1vw);
+    }
+
+/*Animation*/
+    .burger-menu.open .burger-menu-lines {
+        transform: translateX(-10px);
+        background: transparent;
+    }
+
+    .burger-menu.open .burger-menu-lines::before {
+        transform: rotate(45deg) translate(10px, -10px);
+    }
+
+    .burger-menu.open .burger-menu-lines::after {
+        transform: rotate(-45deg) translate(10px, 10px);
+    }
+
+    #burger-menu-container {
+        position: relative;
+        display: inline-block;
+      }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 100%;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        margin-top: -2.5px;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        font-family: bebas-neue-pro, sans-serif;
+        font-weight: 300;
+    }
+      
+    .show-block {display:block;}
+  
+    #shopping-cart-mobile {
+        color: white;
+        width: 50%;
+        text-align: center;
+        text-decoration-line: underline;
+        text-underline-offset: 0.3vw;
+        font-family: bebas-neue-pro, sans-serif;
+        font-weight: 300;
+        font-size: 2.2vw;
+        line-height: 1vw;
+    }
+
+    main {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #arrow-back-1 {
+        height: 4vw;
+        top: 6px;
+        position: relative;
+    }
+    
+    #slash-1 {
+        height: 4vw;
+        top: 6px;
+        position: relative;
+    }
+    
+    #arrow-forth-1 {
+        height: 4vw;
+        top: 7px;
+        position: relative;
+    }
+
+    .product-overlay, .product-overlay2 {
+        padding: 15px;
+        width: auto;
+        margin-left: -40px;
+    }
+
+    .lounge-overlay {
+        padding: 15px;
+        width: auto;
+        margin-right: -40px;
+    }
+
+    .story-bar {
+        width: 57.4%;
+        height: 10%;
+        margin-left: 45.5%;
+    }
+
+    .send-back-service, .pick-up-service, .package-service {
+        margin-left: 0.5vw;
+        margin-right: 0.5vw;
+       }
+}

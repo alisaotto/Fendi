@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style_desktop.css">
+    <link rel="stylesheet" href="style_tablet.css">
+    <link rel="stylesheet" href="style_mobile.css">
+    <link rel="stylesheet" href="https://use.typekit.net/vhg4wey.css">
+    <link rel="shortcut icon" type="image/x-icon" href="Bilder/favicon.ico">
+    <title>Fendi Caffè</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+    <header>
+        <div id="navigation-desktop">
+            <div class="bar"></div>
+            <div class="menu">
+                <img src="Bilder/fendi_logo_white.png" alt="Fendi Caffè Logo"></a>
+                <a href="#sprungmarke1"> FENDI CAFFÈ</a>
+                <a href="#sprungmarke2"> FENDI CAFFÈ LOUNGE</a>
+                <a href="#sprungmarke3"> BEHIND THE BEANS</a>
+                <div class="shopping-cart">
+                    <p>WARENKORB</p>
+                </div>
+            </div>
+        </div>
+        <div id="logo">
+            <img src="Bilder/fendi_logo_white.png" alt="Fendi Logo">
+        </div>
+        <div id="navigation-mobile">
+            <div id="burger-menu-container">
+                <div class="burger-menu" onclick="menuClick()">
+                    <div class="burger-menu-lines"></div>
+                </div>
+                <p>MENU</p>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#sprungmarke1">FENDI CAFFÈ</a>
+                    <a href="#sprungmarke2">FENDI CAFFÈ LOUNGE</a>
+                    <a href="#sprungmarke3">BEHIND THE BEANS</a>
+                </div>
+            </div>
+            <div id="shopping-cart-mobile">
+                <p>WARENKORB</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div id="heroshot">
+            <img src="Bilder/heroshot3.png" alt="Heroshot">
+            <div class="introduction">
+                <div class="white-topper"></div>
+                <p id="title">FENDI CAFFÈ</p>
+                <p id="subtitle">Der Geschmack der ewigen Stadt</p>
+                <p>Erleben Sie bei einer Tasse Fendi Caffè mit allen Sinnen für welche Werte wir seit 1925 stehen:
+                    Qualität, Kreativität & Handwerkskunst. <br>
+                    Nur für Sie haben wir die hochwertigsten Kaffeebohnen und die besten Röstereien Italiens aufgesucht.
+                    <br>
+                    Ob zuhause oder in unserer Boutique an einem sonnigen Platz: <br> Genießen Sie Ihren Fendi Caffè in
+                    höchster Vollendung.
+                </p>
+            </div>
+        </div>
+        <div class="img-wrapper-product">
+            <img class="mySlides" id="product" src="Bilder/product4.png" alt="coffee cup">
+            <img class="mySlides" src="Bilder/coffee_product5.png" alt="coffee beans">
+        </div>
+        <div class="product-slide">
+            <img src="Bilder/arrow_back.png" onclick="plusDivs(-1)" id="arrow-back-1" alt="arrow-back">
+            <img src="Bilder/slash.png" id="slash-1" alt="slash">
+            <img src="Bilder/arrow_forth.png" onclick="plusDivs(+1)" id="arrow-forth-1" alt="arrow forth">
+
+            <div class="product-overlay">
+                <div id="sprungmarke1" class="sprung1"></div>
+                <h1>FENDI CAFFÈ</h1>
+                <h2>QUALITÄT</h2>
+                <p>Nur für Sie haben wir die hochwertigsten Kaffeebohnen und die besten Röstereien Italiens aufgesucht.
+                    Das Aroma der gerösteten Arabica-Bohnen verfügt über eine fruchtig, süße Note, welche balanciert im
+                    Geschmack ist und nur wenig Säure besitzt. <br>
+                    Ein Klassiker für die typische Caffè Crema.</p>
+            </div>
+
+            <div class="product-overlay2">
+                <h1>FENDI CAFFÈ</h1>
+                <h2>TRADITION UND HANDWERKSKUNST</h2>
+                <p>Fendi Caffè wird aus sehr dunklen Bohnen geröstet, deren Zubereitung einer speziellen Zubereitungsart
+                    unserer Röstmeister bedarf. Die Bohnen werden in unserer hauseigenen Rösterei, der sogenannten „torrefazione artigianale“
+                    frisch für Sie zubereitet.</p>
+            </div>
+            
+        </div>
+        <div class="img-wrapper-lounge">
+            <img class="mySlides2" src="Bilder/fendi_lounge2.png" alt="Fendi Caffè Lounge">
+            <img class="mySlides2" src="Bilder/fendi_lounge.png" alt="Fendi Caffè Lounge">
+        </div>
+        <div class="lounge-slide">
+            <img src="Bilder/arrow_back.png" onclick="plusDivs2(-1)" id="arrow-back-1" alt="arrow-back">
+            <img src="Bilder/slash.png" id="slash-1" alt="slash">
+            <img src="Bilder/arrow_forth.png" onclick="plusDivs2(+1)" id="arrow-forth-1" alt="arrow forth">
+            <div class="lounge-overlay">
+                <div id="sprungmarke2" class="sprung2"></div>
+                <h1>FENDI CAFFÈ LOUNGE</h1>
+                <p>Besuchen Sie unsere Caffè Lounge in Rom, welche mit ihrer unverkennbaren Eleganz zum Verweilen
+                    einlädt. Hier können Sie Ihre Geschmacksknospen bei einer Tasse Fendi Caffè und Häppchen
+                    verwöhnen lassen.</p>
+                <div id="lounge-reservation">
+                    <h1>JETZT RESERVIEREN</h1>
+                </div>
+            </div>
+        </div>
+        <div class="margin-top"></div>
+        <div class="behind-the-beans">
+            <div id="sprungmarke3" class="sprung3"></div>
+            <h1>BEHIND THE</h1>
+            <h2>BEANS</h2>
+            <img class="slide" src="Bilder/IMG_0476.png" alt="coffe beans on spoon">
+            <img class="slide" src="Bilder/beans_spoon.png" alt="coffe beans on spoon">
+            <img class="slide" src="Bilder/package.png" alt="coffe beans on spoon">
+            <div class="story-bar">
+                <p onclick="currentDiv(1)">I</p>
+                <p onclick="currentDiv(2)">II</p>
+                <p onclick="currentDiv(3)">III</p>
+            </div>
+            <div class="text-behind-the-beans">
+                <h1 id="roesterei">RÖSTEREI</h1>
+                <p>Fendi Caffè wird aus sehr dunklen Bohnen geröstet, deren Zubereitung einer speziellen Kunst unserer
+                    Röstmeister bedarf. Die Bohnen werden in unserer hauseigenen Rösterei, der sogenannten „torrefazione
+                    artigianale“
+                    frisch für Sie zubereitet.</p>
+            </div>
+        </div>
+        <div class="services">
+            <h1 id="serviceleistungen">PREMIUM-SERVICELEISTUNGEN</h1>
+            <div class="send-back-service">
+                <img src="Bilder/icon_zurueck.png" alt="send back service">
+                <p>VERSAND/RÜCKSENDUNGEN</p>
+                <p>Kostenloser Versand. <br> Kostenlose Rücksendungen innerhalb von 14 Tagen.</p>
+                <p id="link1">Mehr erfahren</p>
+            </div>
+            <div class="pick-up-service">
+                <img src="Bilder/icon_geschaeft.png" alt="pick up service">
+                <p>ABHOLUNG IM FENDI CASA</p>
+                <p>Bestellen Sie Fendi Caffè online und holen Sie Ihre Packung Fendi Caffè in unserer Boutique in Rom
+                    ab.</p>
+                <p id="link2">Mehr erfahren</p>
+            </div>
+            <div class="package-service">
+                <img src="Bilder/icon_verpackung.png" alt="package service">
+                <p>FENDI VERPACKUNG</p>
+                <p>Exklusive Fendi Verpackung.
+                    Individualisieren Sie den Caffè mit einer persönlichen Nachricht als Geschenk.
+                </p>
+                <p id="link3">Mehr erfahren</p>
+            </div>
+        </div>
+        <div class="testimonial">
+            <h1>BELLA HADID FOR</h1>
+            <h2>FENDI CAFFÈ</h2>
+            <div class="testimonial-text">
+                <img src="Bilder/testimonial_bella_hadid2.jpg" alt="Bella Hadid for Fendi">
+                <p>"If anyone would ask me how Rome tastes like, I would simply tell them: <br>
+                    Like a cup of freshly roasted Fendi Caffè."</p>
+            </div>
+        </div>
+        <div class="call-to-action">
+            <img src="Bilder/product.png" alt="Fendi Caffè">
+            <div class="call-to-action-text">
+                <p>Kommen Sie mit auf eine Reise durch die ewige Stadt.</p>
+                <h2>€180,00</h2>
+                <p id="weight">200g</p>
+                <div class="call-to-action-button-buy">
+                    <h1>JETZT KAUFEN</h1>
+                </div>
+                <div class="call-to-action-button-reservation">
+                    <h1>IN FENDI CAFFÈ LOUNGE PROBIEREN</h1>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <p>Fendi Caffè • Via della Fontanella di Borghese, 48 • 00186 Rome</p>
+            <p>T. +39 06 97798080 F. +39 06 97798020 E. info@fendicaffe.com</p>
+            <h2>FOLLOW FENDI</h2>
+            <div class="social-icons">
+                <img src="Bilder/instagram-logo.png" alt="Instagram">
+                <img src="Bilder/facebook.png" alt="Facebook">
+                <img src="Bilder/twitter.png" alt="Twitter">
+            </div>
+        </div>
+    </footer>
+    <p id="credits">© 2021 FENDI CAFFÈ</p>
+</body>
+
+</html>
