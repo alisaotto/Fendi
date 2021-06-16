@@ -5,7 +5,7 @@
     }
 
     main p {
-        font-size: 3vw;
+        font-size: 3.3vw;
     }
 
     #logo {
@@ -261,13 +261,13 @@
 
     .services {
         margin-top: 14vw;
-        height: 40%;
+        height: fit-content;
         display: block;
     }
 
     .send-back-service, .pick-up-service, .package-service {
         width: 80%;
-        margin-bottom: 15%;
+        margin-bottom: 23%;
     }
     
     .testimonial {
