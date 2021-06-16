@@ -66,21 +66,44 @@ function plusDivs3(n) {
 }
 
 function currentDiv(n) {
-  showDivs3(slideIndex3 = n);
+  showDivs3(slideIndex3 = n); // Funktion, der den Slide anzeigen lässt, der angeklickt wird (CurrentDiv(1/2/3))
 }
 
 function showDivs3(n) {
   var i;
   var x = document.getElementsByClassName("slide");
-  var dots = document.getElementsByClassName("demo");
+  var dots = document.getElementsByClassName("dot");
   if (n > x.length) {slideIndex3 = 1}    
   if (n < 1) {slideIndex3 = x.length}
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";  
   }
   x[slideIndex3-1].style.display = "block";  
-
 }
+
+var slideIndex4 = 1;
+showSlides(slideIndex4);
+
+
+function currentDiv(n) {
+  showSlides(slideIndex4 = n);
+} // wenn ich das lösche, geht der Bilder-Slide wieder
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("text-behind-the-beans");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex4 = 1}    
+  if (n < 1) {slideIndex4 = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex4-1].style.display = "block";  
+  dots[slideIndex4-1].className += " active";
+} 
 
 
 

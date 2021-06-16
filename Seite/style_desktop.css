@@ -404,7 +404,19 @@ main h2::after {
     width: 90%;
 }
 
-#roesterei {
+.text-behind-the-beans2, .text-behind-the-beans3 {
+    position: absolute;
+    display: none;
+    margin-top: -19vw;
+    left: 39vw;
+    height: auto;
+    width: auto;
+    padding: 4vw 30px 10px 50px;
+    font-size: 1.4vw;
+    text-align: center;
+}
+
+#herkunft, #roesterei, #verpackung {
     text-align: center;
 }
 
