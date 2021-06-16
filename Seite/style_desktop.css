@@ -364,6 +364,7 @@ main h2::after {
 
 .behind-the-beans img {
     width: 45%;
+    height: auto;
     float: left;
     border: solid 2px #A59381;
     background-image: url(Bilder/marble-4700915_1920.jpg);

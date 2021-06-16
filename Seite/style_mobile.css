@@ -4,6 +4,52 @@
         overflow-x: hidden;
     }
 
+    body p {
+        font-size: 3vw;
+    }
+
+    main h1 {
+        font-size: 5vw;
+        margin-bottom: 5vw;
+    }
+
+    main h2 {
+        font-size: 5vw;
+        bottom: 10px;
+    }
+
+    #navigation-mobile {
+        height: 10vw;
+    }
+
+    #shopping-cart-mobile {
+        line-height: 3vw;
+        font-size: 4vw;
+        text-decoration-thickness: 1px;
+    }
+
+    .burger-menu-lines {
+        width: 90%;
+        height: 1px;
+    }
+
+    .burger-menu-lines::before, .burger-menu-lines::after {
+        width: 90%;
+    }
+
+    #burger-menu-container p {
+        line-height: 1vw;
+        font-size: 4vw;
+    }
+
+    .burger-menu-lines::before {
+        transform: translateY(-1.5vw)
+    }
+
+    .burger-menu-lines::after {
+        transform: translateY(1.5vw);
+    }
+
     #hero-img {
         height: 100vw;
         width: auto;
@@ -11,6 +57,7 @@
     }
 
     #hero-img img {
+        margin-top: 5vw;
         height: 100%;
         width: 100%;
         object-fit: cover;
@@ -25,17 +72,33 @@
         margin-top: -5.5vw;
     }
 
-    .services {
-        height: 63vw;
-        display: block;
+    .introduction p {
+        margin: 20px;
     }
 
-    .send-back-service, .pick-up-service, .package-service {
-        width: 80%;
-       }
+    .introduction {
+        margin-bottom: 14vw;
+    }
+    
+    #title {
+        font-family: bebas-neue-pro, sans-serif;
+        font-size: 5vw;
+        letter-spacing: 5px;
+        margin-top: 15px;
+        margin-bottom: 0;
+    }
+    
+    #subtitle {
+        font-size: 4vw;
+    }
+    
+    .white-topper {
+        height: 38px;
+    }
 
     .img-wrapper-product {
         margin-left: 2%;
+        height: 90vw;
         width: 95%;
         margin-bottom: -6.3%;
     }
@@ -43,49 +106,245 @@
     .product-slide {
         position: relative;
         float: left;
-        width: 40%;
-        height: 6vw;
+        width: 96.2%;
+        height: 15vw;
         left: 2%;
-        top: -1%;
+        top: 5vw;
     }
 
     .product-overlay, .product-overlay2 {
         position: absolute;
-        margin-left: auto;
-        margin-right: auto;
-        width: 160%;
-        height: 15vw;
-
+        height: auto;
+        margin-left: 0px;
+        right: 0px;
+        top: 9vw;
     }
     
     .img-wrapper-lounge {
         margin-left: 2%;
-        margin-top: 30vw;
+        height: 90vw;
         width: 95%;
+        margin-bottom: -6.3%;
+        margin-top: 65vw;
     }
 
     .lounge-slide {
         position: relative;
         float: left;
-        width: 40%;
-        left: 2%;
-        top: -1%;
+        width: 95.8%;
+        height: 15vw;
+        left: 1.6%;
+        top: 3vw;
     }
 
     .lounge-overlay {
-        width: 160%;
-        height: 18vw;
+        position: absolute;
+        height: auto;
+        width: auto;
+        margin-left: auto;
+        right: 0px;
+        top: 9vw;
     }
 
     #lounge-reservation {
         position: relative;
-        width: 15vw;
-        margin: auto auto auto 0;
+        width: 60vw;
+        height: 7vw;
+        margin: auto;
+    }
+
+    #lounge-reservation h1 {
+        font-size: 2.8vw;
+    }
+
+    #arrow-back-1 {
+        height: 10vw;
+        top: -1px;
+        position: relative;
+        cursor: pointer;
+    }
+    
+    #slash-1 {
+        height: 7vw;
+        top: -5px;
+        position: relative;
+    }
+    
+    #arrow-forth-1 {
+        height: 10vw;
+        top: -0.5px;
+        position: relative;
+        cursor: pointer;
     }
 
     .margin-top {
         clear: both;
-        height: 30vw;
+        height: 65vw;
         width: 20px;
+    }
+
+    .behind-the-beans {
+        height: 120vw;
+        width: auto;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        padding: 20px 30px 20px 20px;
+    }
+    
+    .behind-the-beans img {
+        margin-top: 9vw;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    
+    .story-bar {
+        position: relative;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        justify-content: space-between;
+    }
+    
+    .story-bar p {
+        position: relative;
+        width: auto;
+        left: 0;
+        right: 0;
+        top: -65vw;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 5.5vw;
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    .text-behind-the-beans {
+        position: relative;
+        padding: 4vw;
+        font-size: 1.4vw;
+        text-align: center;
+        width: 90%;
+    }
+    
+    #roesterei {
+        text-align: center;
+    }
+
+    .services {
+        margin-top: 14vw;
+        height: 110vw;
+        display: block;
+    }
+
+    .send-back-service, .pick-up-service, .package-service {
+        width: 80%;
+        margin: auto 50px 50px 25px;
+    }
+    
+    .testimonial {
+        background-color: #F3F1ED;
+        height: 90vw;
+        clear: both;
+        padding: 20px 40px 10px 40px;
+        margin-top: 15vw;
+        margin-bottom: 5vw;
+    }
+    
+    .testimonial img {
+        width: 100%;
+        height: 100%;
+        left: 0;
+        right:0;
+    }
+
+    .testimonial-text {
+        width: 100%;
+        position: flex;
+    }
+    
+    .testimonial-text p{
+        height: 23vw;
+        width: 100%;
+        font-size: 2.8vw;
+    } 
+
+    .call-to-action {
+        display: block;
+        height: 120vw;
+        padding: 20px 10px 20px 10px;
+        margin-top: 7vw;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .call-to-action-text {
+        position: relative;
+        margin-top: 3vw;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 7%;
+        width: 75%;
+        height: 52vw;
+        font-size: 3vw;
+
+    }
+    
+    #weight {
+        margin-top: -7%;
+        margin-bottom: 7%;
+    }
+    
+    .call-to-action img {
+        height: auto;
+        width: 100%;
+        float: left;
+    }
+    
+    .call-to-action-button-buy {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+        height: 8vw;
+        line-height: 5vw;
+    }
+    
+    .call-to-action-button-reservation {
+        position: absolute;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+        height: 8vw;
+        line-height: 5vw;
+    }
+    
+    .call-to-action h1 {
+        font-size: 3vw;
+    }
+    
+    .call-to-action h2 {
+        text-align: center;
+        margin-top: 8vw;
+    }
+
+    footer {
+        margin-top: 30vw;
+    }
+
+    footer p, #credits {
+        font-size: 1.9vw;
+    }
+    
+    footer h2 {
+        font-size: 3vw;
+        margin-top: 2vw;
+    }
+    
+    .social-icons img {
+        height: 4vw;
+        margin-left: 10px;
+        margin-right: 10px;
+        cursor: pointer;
     }
 }
