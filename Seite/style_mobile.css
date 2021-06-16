@@ -4,13 +4,26 @@
         overflow-x: hidden;
     }
 
-    body p {
+    main p {
         font-size: 3vw;
+    }
+
+    #logo {
+        height: 40px;
+        width: 97%;
+        margin-left: 1.5%;
+        margin-top: -20px;
+        background-color: white;
+    }
+
+    #logo img {
+        height: 90%;
+        margin: auto;
     }
 
     main h1 {
         font-size: 5vw;
-        margin-bottom: 5vw;
+        margin-bottom: 15px;
     }
 
     main h2 {
@@ -19,27 +32,33 @@
     }
 
     #navigation-mobile {
-        height: 10vw;
+        margin-top: 20px;
+        height: 40px;
     }
 
     #shopping-cart-mobile {
-        line-height: 3vw;
-        font-size: 4vw;
         text-decoration-thickness: 1px;
+        line-height: 10px;
+    }
+
+    .burger-menu {
+        margin-left: 5px;
     }
 
     .burger-menu-lines {
-        width: 90%;
+        width: 17px;
+        min-width: 17px;
         height: 1px;
     }
 
     .burger-menu-lines::before, .burger-menu-lines::after {
-        width: 90%;
+        width: 17px;
     }
 
     #burger-menu-container p {
-        line-height: 1vw;
-        font-size: 4vw;
+        line-height: 1px;
+        margin-left: 20%;
+        margin-top: -21px;
     }
 
     .burger-menu-lines::before {
@@ -48,6 +67,14 @@
 
     .burger-menu-lines::after {
         transform: translateY(1.5vw);
+    }
+
+    .burger-menu-lines::before {
+        transform: translateY(-5px)
+    }
+
+    .burger-menu-lines::after {
+        transform: translateY(5px);
     }
 
     #hero-img {
@@ -65,11 +92,16 @@
     }
 
     .dropdown-content {
-        margin-top: -10px;
+        margin-top: -3px;
+        height: fit-content;
+        padding-left: none;
+        padding-right: none;
+        padding-bottom: 10px;
     }
 
-    #burger-menu-container p {
-        margin-top: -5.5vw;
+    .dropdown-content a {
+        font-size: 15px;
+        margin-bottom: 10px;
     }
 
     .introduction p {
@@ -110,6 +142,7 @@
         height: 15vw;
         left: 2%;
         top: 5vw;
+        margin-bottom: 75vw;
     }
 
     .product-overlay, .product-overlay2 {
@@ -125,7 +158,6 @@
         height: 90vw;
         width: 95%;
         margin-bottom: -6.3%;
-        margin-top: 65vw;
     }
 
     .lounge-slide {
@@ -200,21 +232,19 @@
     .story-bar {
         position: relative;
         width: 100%;
-        margin-left: 0;
-        margin-right: 0;
-        justify-content: space-between;
+        margin: auto;
     }
     
     .story-bar p {
         position: relative;
-        width: auto;
+        top: -57vw;
+        display: inline;
+        width: 100%;
         left: 0;
         right: 0;
-        top: -65vw;
         font-family: 'Times New Roman', Times, serif;
         font-size: 5.5vw;
-        text-align: center;
-        cursor: pointer;
+        line-height: 1px;
     }
     
     .text-behind-the-beans {
@@ -231,20 +261,20 @@
 
     .services {
         margin-top: 14vw;
-        height: 110vw;
+        height: 40%;
         display: block;
     }
 
     .send-back-service, .pick-up-service, .package-service {
         width: 80%;
-        margin: auto 50px 50px 25px;
+        margin-bottom: 15%;
     }
     
     .testimonial {
         background-color: #F3F1ED;
-        height: 90vw;
+        height: 50%;
         clear: both;
-        padding: 20px 40px 10px 40px;
+        padding: 1% 2% 1% 2%;
         margin-top: 15vw;
         margin-bottom: 5vw;
     }
@@ -286,7 +316,6 @@
         width: 75%;
         height: 52vw;
         font-size: 3vw;
-
     }
     
     #weight {
