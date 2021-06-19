@@ -136,7 +136,7 @@
         height: 15vw;
         left: -1%;
         top: 1vw;
-        margin-bottom: 80vw;
+        margin-bottom: 75vw;
     }
     .lounge-overlay {
         position: absolute;
@@ -225,6 +225,11 @@
     .package-service {
         width: 80%;
         margin-bottom: 23%;
+    }
+    .send-back-service img ,
+    .pick-up-service img,
+    .package-service img {
+        height: 5.5vw;
     }
     .testimonial {
         background-color: #F3F1ED;
