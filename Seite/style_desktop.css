@@ -158,6 +158,7 @@
         opacity: 0;
         transition: opacity .3s ease-in-out;
         height: 30vw;
+        position: relative;
     }
     .img-wrapper-product {
         overflow: hidden;
@@ -300,12 +301,12 @@
         text-align: center;
     }
     .lounge-slide {
-        position: relative;
+        position: absolute;
         display: inline-block;
         width: 29.4%;
         height: 6vw;
-        left: 1.3%;
-        top: 3vw;
+        left: 2.7%;
+        top: 14vw;
         background-color: #A59381;
     }
 
