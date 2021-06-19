@@ -1,8 +1,8 @@
 //Burger-Menü-Funktion
-const menuBtn = document.querySelector('.burger-menu');
 let menuOpen = false;
 
 function menuClick() {
+    var menuBtn = document.querySelector('.burger-menu');
     if (menuBtn.classList.contains('open')) {
         document.getElementById("myDropdown").classList.remove("show-block");
         menuBtn.classList.remove('open');
