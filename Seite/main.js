@@ -2,7 +2,7 @@
 let menuOpen = false;
 
 function menuClick() {
-    var menuBtn = document.querySelector('.burger-menu');
+    let menuBtn = document.querySelector('.burger-menu');
     if (menuBtn.classList.contains('open')) {
         document.getElementById("myDropdown").classList.remove("show-block");
         menuBtn.classList.remove('open');
@@ -15,7 +15,7 @@ function menuClick() {
 }
 
 window.onclick = function (event) {
-    if (!event.target.matches('.burger-menu')) {
+    if (!event.target.matches('.burger-menu') && !event.target.matches('.burger-menu-lines')) {
         if (menuOpen) {
             menuClick();
         }
@@ -128,10 +128,6 @@ function isElementInViewport(element) {
         rect.left >= 0 &&
         rect.bottom <= 300 + (window.innerHeight || document.documentElement.clientHeight) &&
         rect.right <= (window.innerWidth || document.documentElement.clientWidth);
-    if (result && element.className == "call-to-action") {
-        console.log(element.className + " Top: " + rect.top + " Left: " + rect.left + " Bottom: " + rect.bottom + " Right: " + rect.right);
-    }
-
     return result;
 }
 
