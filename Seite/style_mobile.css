@@ -1,13 +1,7 @@
 @media only screen and (min-width: 0px) and (max-width: 480px) {
-    
-    html {
-        overflow-x: hidden;
-    }
-
     main p {
         font-size: 3.3vw;
     }
-
     #logo {
         height: 40px;
         width: 97%;
@@ -15,74 +9,60 @@
         margin-top: -20px;
         background-color: white;
     }
-
     #logo img {
         height: 90%;
         margin: auto;
     }
-
     main h1 {
         font-size: 5vw;
         margin-bottom: 15px;
     }
-
     main h2 {
         font-size: 5vw;
         bottom: 10px;
     }
-
     #navigation-mobile {
         margin-top: 20px;
         height: 40px;
     }
-
     #shopping-cart-mobile {
         text-decoration-thickness: 1px;
         line-height: 10px;
     }
-
     .burger-menu {
         margin-left: 5px;
     }
-
     .burger-menu-lines {
         width: 17px;
         min-width: 17px;
         height: 1px;
     }
-
-    .burger-menu-lines::before, .burger-menu-lines::after {
+    .burger-menu-lines::before,
+    .burger-menu-lines::after {
         width: 17px;
     }
-
     #burger-menu-container p {
         line-height: 1px;
         margin-left: 20%;
         margin-top: -21px;
     }
-
     .burger-menu-lines::before {
         transform: translateY(-1.5vw)
     }
-
     .burger-menu-lines::after {
         transform: translateY(1.5vw);
     }
-
     .burger-menu-lines::before {
         transform: translateY(-5px)
     }
-
     .burger-menu-lines::after {
         transform: translateY(5px);
     }
-
     #hero-img {
         height: 100vw;
         width: auto;
         overflow: hidden;
     }
-
     #hero-img img {
         margin-top: 5vw;
         height: 100%;
@@ -90,7 +70,6 @@
         object-fit: cover;
         object-position: 24%;
     }
-
     .dropdown-content {
         margin-top: -3px;
         height: fit-content;
@@ -98,20 +77,16 @@
         padding-right: none;
         padding-bottom: 10px;
     }
-
     .dropdown-content a {
         font-size: 15px;
         margin-bottom: 10px;
     }
-
     .introduction p {
         margin: 20px;
     }
-
     .introduction {
         margin-bottom: 14vw;
     }
-    
     #title {
         font-family: bebas-neue-pro, sans-serif;
         font-size: 5vw;
@@ -119,22 +94,18 @@
         margin-top: 15px;
         margin-bottom: 0;
     }
-    
     #subtitle {
         font-size: 4vw;
     }
-    
     .white-topper {
         height: 38px;
     }
-
     .img-wrapper-product {
         margin-left: 2%;
         height: 90vw;
         width: 95%;
         margin-bottom: -6.3%;
     }
-
     .product-slide {
         position: relative;
         float: left;
@@ -144,31 +115,29 @@
         top: 5vw;
         margin-bottom: 75vw;
     }
-
-    .product-overlay, .product-overlay2 {
+    .product-overlay,
+    .product-overlay2 {
         position: absolute;
         height: auto;
         margin-left: 0px;
         right: 0px;
         top: 9vw;
     }
-    
     .img-wrapper-lounge {
         margin-left: 2%;
         height: 90vw;
         width: 95%;
         margin-bottom: -6.3%;
     }
-
     .lounge-slide {
         position: relative;
         float: left;
         width: 95.8%;
         height: 15vw;
         left: 1.6%;
-        top: 3vw;
+        top: 1vw;
+        margin-bottom: 80vw;
     }
-
     .lounge-overlay {
         position: absolute;
         height: auto;
@@ -177,44 +146,37 @@
         right: 0px;
         top: 9vw;
     }
-
     #lounge-reservation {
         position: relative;
         width: 60vw;
         height: 7vw;
         margin: auto;
     }
-
     #lounge-reservation h1 {
         font-size: 2.8vw;
     }
-
     #arrow-back-1 {
         height: 10vw;
         top: -1px;
         position: relative;
         cursor: pointer;
     }
-    
     #slash-1 {
         height: 7vw;
         top: -5px;
         position: relative;
     }
-    
     #arrow-forth-1 {
         height: 10vw;
         top: -0.5px;
         position: relative;
         cursor: pointer;
     }
-
     .margin-top {
         clear: both;
         height: 65vw;
         width: 20px;
     }
-
     .behind-the-beans {
         height: 120vw;
         width: auto;
@@ -222,19 +184,16 @@
         margin-right: 2.5%;
         padding: 20px 30px 20px 20px;
     }
-    
     .behind-the-beans img {
         margin-top: 9vw;
         margin-bottom: 20px;
         width: 100%;
     }
-    
     .story-bar {
         position: relative;
         width: 100%;
         margin: auto;
     }
-    
     .story-bar p {
         position: relative;
         top: -58vw;
@@ -246,7 +205,6 @@
         font-size: 5.5vw;
         line-height: 1px;
     }
-    
     .text-behind-the-beans {
         position: relative;
         padding: 4vw;
@@ -254,22 +212,20 @@
         text-align: center;
         width: 90%;
     }
-    
     #roesterei {
         text-align: center;
     }
-
     .services {
         margin-top: 14vw;
         height: fit-content;
         display: block;
     }
-
-    .send-back-service, .pick-up-service, .package-service {
+    .send-back-service,
+    .pick-up-service,
+    .package-service {
         width: 80%;
         margin-bottom: 23%;
     }
-    
     .testimonial {
         background-color: #F3F1ED;
         height: 50%;
@@ -278,25 +234,21 @@
         margin-top: 15vw;
         margin-bottom: 5vw;
     }
-    
     .testimonial img {
         width: 100%;
         height: 100%;
         left: 0;
-        right:0;
+        right: 0;
     }
-
     .testimonial-text {
         width: 100%;
         position: flex;
     }
-    
-    .testimonial-text p{
+    .testimonial-text p {
         height: 23vw;
         width: 100%;
         font-size: 2.8vw;
-    } 
-
+    }
     .call-to-action {
         display: block;
         height: 120vw;
@@ -306,7 +258,6 @@
         margin-left: auto;
         margin-right: auto;
     }
-    
     .call-to-action-text {
         position: relative;
         margin-top: 3vw;
@@ -317,18 +268,15 @@
         height: 52vw;
         font-size: 3vw;
     }
-    
     #weight {
         margin-top: -7%;
         margin-bottom: 7%;
     }
-    
     .call-to-action img {
         height: auto;
         width: 100%;
         float: left;
     }
-    
     .call-to-action-button-buy {
         position: absolute;
         margin-left: auto;
@@ -337,7 +285,9 @@
         height: 8vw;
         line-height: 5vw;
     }
-    
+    .call-to-action-button-buy:active {
+        background-color: #bead9c;
+    }
     .call-to-action-button-reservation {
         position: absolute;
         margin-top: 40px;
@@ -347,29 +297,27 @@
         height: 8vw;
         line-height: 5vw;
     }
-    
+    .call-to-action-button-reservation:active {
+        background-color: rgb(247, 243, 236);
+    }
     .call-to-action h1 {
         font-size: 3vw;
     }
-    
     .call-to-action h2 {
         text-align: center;
         margin-top: 8vw;
     }
-
     footer {
         margin-top: 30vw;
     }
-
-    footer p, #credits {
+    footer p,
+    #credits {
         font-size: 1.9vw;
     }
-    
     footer h2 {
         font-size: 3vw;
         margin-top: 2vw;
     }
-    
     .social-icons img {
         height: 4vw;
         margin-left: 10px;

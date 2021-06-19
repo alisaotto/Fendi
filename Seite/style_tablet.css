@@ -170,8 +170,16 @@
         position: relative;
     }
 
+    .div1, .div2, .behind-the-beans, .services, .testimonial, .call-to-action {
+        opacity: 1;
+    }
+
     .product-overlay, .product-overlay2, .lounge-overlay {
         padding: 15px;
+    }
+
+    .lounge-slide {
+        margin-left: 2.1%;
     }
 
     .story-bar {

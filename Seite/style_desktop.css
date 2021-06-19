@@ -1,6 +1,7 @@
 @media only screen and (min-width: 0px) and (max-width: 1600px) {
     html {
         scroll-behavior: smooth;
+        overflow-x: hidden;
     }
     body {
         background: white;
@@ -109,7 +110,7 @@
     .introduction {
         z-index: 60;
         position: relative;
-        margin: -40px auto 7vw auto;
+        margin: -40px auto auto auto;
         border-style: solid;
         border-width: 2px;
         border-color: #A59381;
@@ -146,6 +147,17 @@
         margin-left: auto;
         margin-right: auto;
         margin-top: -250px;
+    }
+    .div1 {
+        opacity: 0;
+        transition: opacity .3s ease-in-out;
+        height: 30vw;
+        padding-top: 7vw;
+    }
+    .div2 {
+        opacity: 0;
+        transition: opacity .3s ease-in-out;
+        height: 30vw;
     }
     .img-wrapper-product {
         overflow: hidden;
@@ -288,13 +300,12 @@
         text-align: center;
     }
     .lounge-slide {
-        position: relative;
         display: inline-block;
         width: 29.4%;
         height: 6vw;
-        right: 66.5%;
+        margin-left: 2.5%;
+        margin-top: 5vw;
         background-color: #A59381;
-        top: 37vw;
     }
     #lounge-reservation {
         position: relative;
@@ -311,17 +322,22 @@
         background-color: rgb(247, 243, 236);
         cursor: pointer;
     }
-    .margin-top {
+    /*.margin-top {
         clear: both;
-        height: 7vw;
-        width: 20px;
-    }
+        height: auto;
+        margin-top: -3vw;
+        opacity: 0;
+        transition: opacity .3s ease-in-out;
+    } */
     .behind-the-beans {
+        position: relative;
         background-color: #F3F1ED;
-        height: 39vw;
         clear: both;
-        padding: 20px 40px 20px 40px;
-        margin: auto;
+        height: 40vw;
+        padding: 4vw 40px 20px 40px;
+        margin-top: 27vw;
+        opacity: 0;
+        transition: opacity .3s ease-in-out;
     }
     .behind-the-beans img {
         width: 45%;
@@ -341,17 +357,30 @@
         border: solid 2px #A59381;
         background-image: url(Bilder/marble-4700915_1920.jpg);
     }
-    .story-bar p {
+    .story-bar dot {
         display: inline-block;
         font-family: 'Times New Roman', Times, serif;
         font-size: 1.8vw;
         font-weight: 600;
-        color: #A59381;
         line-height: 50%;
         text-align: center;
         margin-right: 10%;
         margin-left: 10%;
         cursor: pointer;
+    }
+    .story-bar p {
+        display: inline-block;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.8vw;
+        font-weight: 600;
+        line-height: 50%;
+        text-align: center;
+        margin-right: 10%;
+        margin-left: 10%;
+        cursor: pointer;
+    }
+    .active {
+        color: #A59381; 
     }
     .text-behind-the-beans {
         position: relative;
@@ -360,7 +389,8 @@
         text-align: center;
         width: 90%;
     }
-    .text-behind-the-beans2, .text-behind-the-beans3 {
+    .text-behind-the-beans2,
+    .text-behind-the-beans3 {
         position: absolute;
         display: none;
         margin-top: -19vw;
@@ -371,7 +401,9 @@
         font-size: 1.4vw;
         text-align: center;
     }
-    #herkunft, #roesterei, #verpackung {
+    #herkunft,
+    #roesterei,
+    #verpackung {
         text-align: center;
     }
     .services {
@@ -382,12 +414,17 @@
         border-width: 1px;
         border-color: darkgray;
         margin-top: 7vw;
+        opacity: 0;
+        transition: opacity .3s ease-in-out;
     }
-    .services img, a {
+    .services img,
+    a {
         height: 2.6vw;
         color: black;
     }
-    .send-back-service, .pick-up-service, .package-service {
+    .send-back-service,
+    .pick-up-service,
+    .package-service {
         height: 13vw;
         width: 23vw;
         padding: 10px;
@@ -400,7 +437,9 @@
         text-align: center;
         margin-top: 5vw;
     }
-    #link1, #link2, #link3 {
+    #link1,
+    #link2,
+    #link3 {
         text-decoration-line: underline;
         cursor: pointer;
     }
@@ -410,6 +449,8 @@
         clear: both;
         padding: 20px 40px 20px 40px;
         margin-top: 7vw;
+        opacity: 0;
+        transition: opacity .3s ease-in-out;
     }
     .testimonial img {
         height: 23vw;
@@ -436,8 +477,12 @@
         margin-top: 7vw;
         margin-left: auto;
         margin-right: auto;
+        opacity: 0;
+        transition: opacity .3s ease-in-out;
     }
-
+    .visible {
+        opacity: 1;
+    }
     .call-to-action-text {
         position: relative;
         padding-top: 7%;
@@ -557,11 +602,9 @@
         position: absolute;
         margin: -110px;
     }
-
     .dot:active {
-        color:#d8c9bb ;
+        color: #d8c9bb;
     }
-
     .dot:hover {
         color: #d8c9bb;
     }
