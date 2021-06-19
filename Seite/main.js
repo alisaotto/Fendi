@@ -23,7 +23,7 @@ window.onclick = function (event) {
 }
 
 
-//Produkt-Bilder-Karussel
+//Produkt-Bilder-Karussell
 var slideIndex0 = 1;
 showDivs(slideIndex0);
 
@@ -58,7 +58,7 @@ function showText(n) {
 }
 
 
-//Lounge-Bilder-Karussel
+//Lounge-Bilder-Karussell
 var slideIndex2 = 1;
 showDivs2(slideIndex2);
 
@@ -77,7 +77,7 @@ function showDivs2(n) {
     x[slideIndex2 - 1].style.display = "block";
 }
 
-//Behind The Beans Bilder-Karussel
+//Behind The Beans Bilder-Karussell
 var slideIndex3 = 1;
 showDivs3(slideIndex3);
 
@@ -151,20 +151,3 @@ function setVisible(elements) {
 
 window.addEventListener("load", callbackFunc);
 window.addEventListener("scroll", callbackFunc);
-
-
-/* $(document).on("scroll", function() {
-    var pageTop = $(document).scrollTop();
-    var pageBottom = pageTop + $(window).height();
-    var tags = $(".call-to-action");
-
-    for (var i = 0; i < tags.length; i++) {
-      var tag = tags[i];
-
-      if ($(tag).position().top < pageBottom) {
-        $(tag).addClass("visible");
-      } else {
-        $(tag).removeClass("visible");
-      }
-    }
-  }); */
