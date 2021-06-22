@@ -134,7 +134,7 @@
         float: left;
         width: 96.6%;
         height: 15vw;
-        left: -1%;
+        margin-left: -1.5%;
         top: 1vw;
         margin-bottom: 75vw;
     }
@@ -143,7 +143,6 @@
         height: auto;
         width: auto;
         margin-left: auto;
-        right: 0px;
         top: 9vw;
     }
     #lounge-reservation {
